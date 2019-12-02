@@ -24,7 +24,7 @@ body {
 } 
 
 .bg-photo-1 { 
-    background: /*url(../img/page.jpg)
+    background: url(../img/page.jpg)
 				/*url(http://pic.tsmp4.net/api/fengjing/img.php)/*风景*/
 				/*url(https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture)/*bing*/
 				/*url(http://http://pic.tsmp4.net/api/erciyuan/img.php)/*二次元*/
