@@ -15,8 +15,10 @@
 		<!--搜索框点击事件-->
 		<script type="text/javascript" src="js/search.js"></script>
 		<!--弹跳事件引入引入-->
+		<script type="text/javascript" src="js/jquery.easie-min.js"></script>
 		<script type="text/javascript" src="js/tantiao.js"></script>
 		<script type="text/javascript" src="js/tantiaorecerh.js"></script>
+		<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="bg-photo bg-photo-1" style="display: block;">
@@ -24,11 +26,16 @@
 				<div  id="clock">
 					<div id="clock_2"></div>
 				</div>
-				<div id="div_1" class="search-box" onmouseenter="Mousefoucs()">
+				<div id="div_1" class="search-box" onfocus="Mousefoucs()">
 					<input type="text" id="search-t" class="search-txt" placeholder="Type to search" style="text-align: -webkit-center" >
 					<a href="#" id="search-b" class="search-btn">
 						<i class="fa fa-search" aria-hidden="true"></i>
 					</a>
+				</div>
+			</div>
+			<div id="jitang">
+				<div id="jitang_2">
+					<span id="jinrishici-sentence"></span>
 				</div>
 			</div>
 		</div>

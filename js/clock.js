@@ -1,7 +1,7 @@
 setInterval(function(){
 	var date = new Date();
 	updateTime(date);
-},1000);
+},10);
 function updateTime(date){
 	var timeDiv = document.getElementById("clock_2");
 	var hours = date.getHours();

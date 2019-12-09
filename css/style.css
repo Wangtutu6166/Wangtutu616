@@ -30,6 +30,7 @@ body {
 				/*url(https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture)/*bing*/
 				/*url(http://http://pic.tsmp4.net/api/erciyuan/img.php)/*二次元*/
 				/*url(https://uploadbeta.com/api/pictures/random/?key=推女郎)/*推女郎*/
+				/* url(https://api.ooopn.com/image/bing/api.php?v=2&type=jump)/* 必应每日一图 */ 
 	 no-repeat center center;
 } 
 /*时钟*/
@@ -45,13 +46,13 @@ body {
 }
 #clock_2{
 	position: absolute;
-	left: -125%;
+	left: -116%;
 	transform: translate(-50%,-50%);
 	color: white;
 	font-family: "Segoe UI Light";
 	font-size: 50px;
 	/* border: 2px solid red; */
-	-webkit-animation-delay:0.82s;
+	-webkit-animation-delay:0.75s;
 }
 /*一代目搜索框*/
 /*#div_1{position:absolute;
@@ -139,3 +140,23 @@ body {
 ::-moz-placeholder { color: #FFFFFF; font-family: "Lucida Console";}
 ::-webkit-input-placeholder { color:#FFFFFF;font-family: "Lucida Console"; }
 :-ms-input-placeholder { color:#FFFFFF;font-family: "Lucida Console"; }
+#jitang{
+	width: 100%;
+	height: 5%;
+	position: absolute;
+	bottom: 0px;
+	background: rgba(255,250,250,0.38);
+	-webkit-animation-duration:1s;
+	-webkit-animation-delay:0.75s;
+	/* border: 1px solid black; */
+}
+#jitang_2{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-family: "幼圆";
+	font-size: 18px;
+	/* border: 1px solid black; */
+}
