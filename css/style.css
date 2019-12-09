@@ -46,7 +46,7 @@ body {
 }
 #clock_2{
 	position: absolute;
-	left: -116%;
+	left: -150%;
 	transform: translate(-50%,-50%);
 	color: white;
 	font-family: "Segoe UI Light";
