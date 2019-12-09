@@ -1,0 +1,141 @@
+body {
+	padding: 0;margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #211f1f; 
+    display:none\8;
+} 
+.bg-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+} 
+
+.bg-photo-1 { 
+    background: url(../img/page.jpg)
+				/*url(../img/NaranjoBulnes_ZH-CN0696600867_1920x1080.jpg)
+				/*url(http://pic.tsmp4.net/api/fengjing/img.php)/*风景*/
+				/*url(https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture)/*bing*/
+				/*url(http://http://pic.tsmp4.net/api/erciyuan/img.php)/*二次元*/
+				/*url(https://uploadbeta.com/api/pictures/random/?key=推女郎)/*推女郎*/
+	 no-repeat center center;
+} 
+/*时钟*/
+#clock{
+	width: 30px;
+	height: 20px;
+/* 	border: 2px solid red; */
+	position: absolute;
+	left: 50%;
+	top: 24%;
+	transform: translate(-50%,-50%);
+	overflow: visible;
+}
+#clock_2{
+	position: absolute;
+	left: -125%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-family: "Segoe UI Light";
+	font-size: 50px;
+	/* border: 2px solid red; */
+	-webkit-animation-delay:0.82s;
+}
+/*一代目搜索框*/
+/*#div_1{position:absolute;
+        left:50%;    
+        top:38.2%;
+        transform: translate(-50%,50%);
+		background: #2f3640;
+		height: 40px;
+		border-radius: 40px;
+		padding: 10px;
+		}
+#input_0{
+	width: 200px;height: 30px;
+	background-color: white;
+	outline-style: none; 
+	border: 0px;
+	border-radius: 15px;
+	}
+#input_0:focus{
+	width: 500px;
+	transition: all .5s ease 0s;
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	} */
+/*二代目搜索框*/
+.search-box{
+	z-index: 0;
+	position:absolute;
+	left:50%;
+	top:-10%;
+	transform: translate(-50%,-50%);
+	height: 30px;
+	border-radius: 30px;
+	padding: 5px;
+	overflow: hidden;
+}
+/* 搜索框盒子毛玻璃效果 */
+.search-box::after{
+	content: "";
+	position: absolute;
+	top: -100%;right: 0;bottom: 0;left: -100%;
+	background: rgba(255,250,250,0.38);
+	z-index: -1;
+}
+/* 鼠标移动触发txt变长 */
+.search-box:hover>.search-txt{
+	width: 382px;
+	padding: 0 6px;
+}
+/* 鼠标点击触发txt变长 */
+.search-txt:focus{
+	width: 382px;
+	padding: 0 6px;
+}
+/* 鼠标移动触发按钮改变颜色 */
+.search-btn:hover{
+	color: #FF6666;
+}
+.search-btn{
+	color: #FFFFFF;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-family: "幼圆";
+	font-size: 18px;
+	transition: 0.3s;
+	line-height: 30px;
+	width: 0px;
+}
+/*提示文字颜色*/
+::-moz-placeholder { color: #FFFFFF; font-family: "Lucida Console";}
+::-webkit-input-placeholder { color:#FFFFFF;font-family: "Lucida Console"; }
+:-ms-input-placeholder { color:#FFFFFF;font-family: "Lucida Console"; }
